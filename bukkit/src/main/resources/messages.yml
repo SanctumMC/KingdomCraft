@@ -1,0 +1,264 @@
+# Message file
+# Single quotes have to be doubled: ''
+#
+# Created by: iGufGuf
+#
+#
+prefix: '&6KingdomCraft &2> &a'
+
+# Common messages
+
+noPermission: '&cYou don''t have permission to do that!'
+
+friendlyFire: '&cFriendly fire is disabled!'
+
+teleport: '&aTeleporting in &2{0} &aseconds, don''t move!'
+teleportCancel: '&cTeleportation cancelled!'
+
+chatNoChannel: '&cThere is not available chat channel to send your message!'
+chatChannelDisabled: '&cYou disabled the &4{0} &cchannel!'
+
+# Command error messages
+
+cmdErrorNoPermission: '&cYou don''t have permission to use that command!'
+
+cmdErrorInvalid: '&cInvalid command, try &4/k help'
+cmdErrorInvalidHint: '&cInvalid command, did you mean: &4{0}'
+cmdErrorInvalidUsage: '&cInvalid usage, try: &4{0}'
+
+cmdErrorSenderNoKingdom: '&cYou''re not in a kingdom!'
+cmdErrorTargetNoKingodm: '&4{0} &cis not in a kingdom!'
+cmdErrorKingdomNotExist: '&cThe kingdom &4{0} &cdoes not exist!'
+cmdErrorRankNotExist: '&cThe rank &4{0} &cdoes not exist!'
+cmdErrorNoPlayer: '&cThe player &4{0} &cdoes not exist!'
+cmdErrorNotOnline: '&cThe player &4{0} &cis not online!'
+cmdErrorSameKingdom: '&cYou cannot do that to your own kingdom!'
+cmdErrorPermissionGroupNotExist: '&cThe permission group &4{0} &cdoes not exist.'
+cmdErrorKingdomNoDefaultRank: '&cThe kingdom &4{0} &chas no default rank!'
+
+cmdErrorInvalidString: '&4{0} &cis not a valid!'
+cmdErrorInvalidNumber: '&4{0} &cis not a valid number!'
+cmdErrorInvalidBoolean: '&4{0} &cis not a valid, must be &4true &cor &4false&c!'
+
+# Help messages
+
+cmdHelpHeader: '&e+----<->----+ &6KingdomCraft &e+----<->----+'
+cmdHelpFooter: '&ePage &a{0}&f/&a{1}'
+cmdHelpFormat: '&f{0}{1} &a{2}'
+cmdHelpPageLimit: '&cThere are only &4{0} &cpages.'
+
+cmdJoinExplanation: 'Join a kingdom'
+cmdListExplanation: 'Get a list of kingdoms'
+cmdSpawnExplanation: 'Teleport to the kingdom spawn'
+cmdInfoExplanation: 'Get info of a kingdom or player'
+cmdLeaveExplanation: 'Leave your kingdom'
+cmdChannelExplanation: 'Enable/disable a channel to talk in'
+cmdSetRankExplanation: 'Change a players rank'
+cmdEnemyExplanation: 'Start a rivalry'
+cmdTruceExplanation: 'Request or accept a truce'
+cmdAllyExplanation: 'Request or accept an alliance'
+cmdNeutralExplanation: 'End an alliance or rivalry'
+cmdSetSpawnExplanation: 'Set your kingdom spawn'
+cmdSetSpawnOtherExplanation: 'Set a kingdom spawn'
+cmdKickExplanation: 'Kick a player from your kingdom'
+cmdSetKingdomExplanation: 'Place a player in a kingdom'
+cmdInviteExplanation: 'Invite a player to your kingdom'
+cmdReloadExplanation: 'Reload KingdomCraft'
+cmdTpHereExplanation: 'Teleport everyone of your kingdom to you'
+cmdTpHereOtherExplanation: 'Teleport everyone of a kingdom to you'
+cmdChatExplanation: 'Send a message in the specified chat channel'
+
+cmdGroupsAddExplanation: 'Add a permission group to a rank'
+cmdGroupsAddOtherExplanation: 'Add a permission group to a rank'
+cmdGroupsListExplanation: 'Get a list of all groups belonging to a rank'
+cmdGroupsListOtherExplanation: 'Get a list of all groups belonging to a rank'
+cmdGroupsRemoveExplanation: 'Remove a permission group from a rank'
+cmdGroupsRemoveOtherExplanation: 'Remove a permission group from a rank'
+
+cmdCreateExplanation: 'Create a kingdom'
+cmdDeleteExplanation: 'Delete your kingdom'
+cmdEditDisplayExplanation: 'Change the display of your kingdom'
+cmdEditDisplayOtherExplanation: 'Change the display of a kigndom'
+cmdEditInviteOnlyExplanation: 'Change the invite only status of your kingdom'
+cmdEditInviteOnlyOtherExplanation: 'Change the invite only status of a kingdom'
+cmdEditMaxMembersExplanation: 'Change the max members of your kingdom'
+cmdEditMaxMembersOtherExplanation: 'Change the max members of a kingdom'
+cmdEditPrefixExplanation: 'Change the prefix of your kingdom'
+cmdEditPrefixOtherExplanation: 'Change the prefix of a kingdom'
+cmdEditSuffixExplanation: 'Change the suffix of your kingdom'
+cmdEditSuffixOtherExplanation: 'Change the suffix of a kingdom'
+
+cmdRanksCloneExplanation: 'Clone a rank from one kingdom to another'
+cmdRanksCreateExplanation: 'Create a rank in your kingdom'
+cmdRanksCreateOtherExplanation: 'Create a rank in a kingdom'
+cmdRanksDeleteExplanation: 'Delete a rank in your kingdom'
+cmdRanksDeleteOtherExplanation: 'Delete a rank in a kingdom'
+cmdRanksEditDisplayExplanation: 'Change the display of a rank in your kingdom'
+cmdRanksEditDisplayOtherExplanation: 'Change the display of a rank in a kingdom'
+cmdRanksEditLevelExplanation: 'Change the level of a rank in your kingdom'
+cmdRanksEditLevelOtherExplanation: 'Change the level of a rank in a kingdom'
+cmdRanksEditMaxMembersExplanation: 'Change the max members of a rank in your kingdom'
+cmdRanksEditMaxMembersOtherExplanation: 'Change the max members of a rank in a kingdom'
+cmdRanksEditPrefixExplanation: 'Change the prefix of a rank in your kingdom'
+cmdRanksEditPrefixOtherExplanation: 'Change the prefix of a rank in a kingdom'
+cmdRanksEditSuffixExplanation: 'Change the suffix of a rank in your kingdom'
+cmdRanksEditSuffixOtherExplanation: 'Change the suffix of a rank in a kingdom'
+cmdRanksListExplanation: 'Get a list of all ranks in your kingdom'
+cmdRanksListOtherExplanation: 'Get a list of all ranks in a kingdom'
+
+# Command messages
+
+# /k join
+cmdJoinAlready: '&aYou are already in a kingdom!'
+cmdJoinSuccess: '&aYou successfully joined &2{0}&a!'
+cmdJoinSuccessMembers: '&2{0} &ahas joined your kingdom!'
+cmdJoinNoInvite: '&aYou need an invite to join &2{0}&a!'
+cmdJoinFull: '&aThe kingdom &2{0} &ais full!'
+
+# /k leave
+cmdLeaveSuccess: '&aYou successfully left &2{0}&a!'
+cmdLeaveSuccessMembers: '&2{0} &ahas left your kingdom!'
+
+# /k list
+cmdList: '&aList of kingdoms: {0}'
+cmdListNormal: '&aThere are &2{0} &aonline players:'
+
+# /k chatchannel
+cmdChatChannelEnable: '&aYou enabled the channel &2{0}&a!'
+cmdChatChannelDisable: '&aYou disabled the channel &2{0}&a!'
+cmdChatChannelNoToggle: '&aYou can''t disable &2{0}&a!'
+cmdChatChannelNotExist: '&aThe channel &2{0} &adoes not exist!'
+
+# /k invite
+cmdInviteAlreadyKingdom: '&cThe player &4{0} &cis already in your kingdom!'
+cmdInviteAlready: '&cThe player &4{0} &cis already invited for your kingdom!'
+cmdInviteTarget: '&aYou have been invited by &2{0} &ato join &2{1}&a!'
+cmdInviteSender: '&aYou invited &2{0} &ato join &2{1}&a!'
+
+# /k spawn
+cmdSpawnNotExists: '&aThe kingdom spawn has not been setup yet!'
+cmdSpawnOtherNotExists: '&aThe spawn of kingdom &2{0} &ahas not been setup yet!'
+cmdSpawnSuccess: '&aYou have been teleported to &2{0}&a!'
+
+# /k setspawn
+cmdSetSpawnSuccess: '&aYou changed the spawn of your kingdom &ato &2{0}&a!'
+cmdSetSpawnOtherSuccess: '&aYou changed the spawn of &2{0} &ato &2{1}&a!'
+
+# /k enemy
+cmdEnemySuccess: '&aYou are now enemies with &2{0}&a!'
+cmdEnemySuccessMembers: '&aYour kingdom is now enemies with &2{0}&a!'
+cmdEnemyAlready: '&cYou are already enemies with &4{0}&c!'
+
+# /k ally
+cmdAllyRequest: '&aYou requested an alliance with &2{0}&a!'
+cmdAllyRequestAlready: '&cYou already requested an alliance with &4{0}&c!'
+cmdAllyRequestTarget: '&2{0} &ahas requested an alliance with your kingdom!'
+cmdAllyAccepted: '&aYou are now allies with &2{0}&a!'
+cmdAllyAlready: '&4{0} &cis already an allied kingdom!'
+
+# /k truce
+cmdTruceRequest: '&aYou requested a truce with &2{0}&a!'
+cmdTruceRequestAlready: '&cYou already requested a truce with &4{0}&c!'
+cmdTruceRequestTarget: '&2{0} &ahas requested a truce with your kingdom!'
+cmdTruceAccepted: '&aYou are now in a truce with &2{0}&a!'
+cmdTruceAlready: '&4{0} &cis already in a truce with your kingdom!'
+cmdTruceNotEnemies: '&cYou are not enemies with &4{0}&c!'
+
+# /k neutral
+cmdNeutralRequest: '&aYou requested to be neutral with &2{0}&a!'
+cmdNeutralRequestAlready: '&cYou already requested to be neutral with &4{0}&c!'
+cmdNeutralRequestTarget: '&2{0} &ahas requested to be neutral with your kingdom!'
+cmdNeutralAccepted: '&aYou are now neutral with &2{0}&a!'
+cmdNeutralAlready: '&4{0} &cis already a neutral kingdom!'
+
+# /k kick
+cmdKickTarget: '&aYou have been kicked out of &2{0}&a!'
+cmdKickSender: '&aYou kicked &2{0} &aout of &2{1}&a!'
+cmdKickLowLevel: '&cYour rank level is lower than the rank of &4{0}&c!'
+
+# /k setrank
+cmdSetRankLowLevelTarget: '&cYour rank level is lower than the target rank!'
+cmdSetRankLowLevelCurrent: '&cYour rank level is lower than the current rank of &4{0}&c!'
+cmdSetRankNotExist: '&aThe rank &2{0} &adoes not exist!'
+cmdSetRankAlready: '&c{0} &4already has rank &4{1}&c!'
+cmdSetRankSenderChange: '&aYou changed the rank of &2{0} &ato &2{1}&a!'
+cmdSetRankTargetChange: '&aYour rank has been changed to &2{0}&a!'
+
+# /k setkingdom
+cmdSetKingdomAlready: '&c{0} &4is already in kingdom &4{1}&c!'
+cmdSetKingdomTarget: '&aYou have been placed in kingdom &2{0}&a!'
+cmdSetKingdomSender: '&aYou placed &2{0} &ain kingdom &2{1}&a!'
+
+# /k create
+cmdCreateAlreadyExists: '&aThe kingdom &2{0} &aalready exists!'
+cmdCreateSuccess: '&aYou created the kingdom &2{0}&a!'
+cmdCreateNameInvalid: '&cKingdom names can only contain alphanumeric characters!'
+
+# /k delete
+cmdDeleteSuccess: '&aYou deleted the kingdom &2{0}&a!'
+cmdDeleteSuccessMembers: '&aYour kingdom has been deleted!'
+cmdDeleteConfirm: '&aType &2/k delete confirm &ato delete &2{0}&a!'
+
+# /k edit
+cmdEditSuccess: '&aChanged {0} of your kingdom to &2{1}&a!'
+cmdEditOtherSuccess: '&aChanged {0} of kingdom &2{1} &ato &2{2}&a!'
+
+# /k ranks create
+cmdRanksCreateAlreadyExists: '&aThe rank &2{0} &aalready exists!'
+cmdRanksCreateSuccess: '&aYou created the rank &2{0}&a!'
+cmdRanksCreateNameInvalid: '&cRank names can only contain alphanumeric characters!'
+
+# /k ranks delete
+cmdRanksDeleteSuccess: '&aYou deleted the rank &2{0}&a!'
+cmdRanksDeleteConfirm: '&aType &2/k delete confirm &ato delete &2{0}&a!'
+
+# /k ranks list
+cmdRanksList: '&aList of ranks: &2{0}'
+cmdRanksListOther: '&aList of ranks for kingdom &2{0}&a: &2{1}'
+
+# /k ranks edit
+cmdRanksEditSuccess: '&aChanged {0} of &2{1} &ato &2{2}&a!'
+cmdRanksEditOtherSuccess: '&aChanged {0} of rank &2{1} &ain kingdom &2{2} &ato &2{3}&a!'
+
+# /k groups add
+cmdGroupsAddAlreadyExists: '&cThe group &4{0} &calready belongs to rank &4{1}&c!'
+cmdGroupsAddSuccess: '&aAdded group &2{0} &ato rank &2{1}&a!'
+cmdGroupsAddOtherSuccess: '&aAdded group &2{0} &ato rank &2{1} &aof kingdom &2{2}&a!'
+
+# /k groups remove
+cmdGroupsRemoveNotExist: '&cThe group &4{0} &cdoes not belong to rank &4{1}&c!'
+cmdGroupsRemoveSuccess: '&aThe group &2{0} &awas removed from rank &2{1}&a!'
+cmdGroupsRemoveOtherSuccess: '&aThe group &2{0} &awas removed from rank &2{1} &aof kingdom &2{2}!'
+
+# /k groups list
+cmdGroupsList: '&aPermission groups belonging to rank &2{0}&a: &2{1}'
+cmdGroupsListOther: '&aPermission groups belonging to rank &2{0} &aof kingdom &2{1}&a: &2{2}'
+
+# /k ranks clone
+cmdRanksCloneSuccess: '&aCloned rank &2{0} &afrom &2{1} &ato &2{2}&a!'
+
+# /k tphere
+cmdTpHere: '&aTeleported everyone of your kingdom to you!'
+cmdTphereTarget: '&aYou''ve been teleported to &2{0}&a!'
+cmdTpHereOther: '&aTeleported everyone of kingdom &2{0} &ato you!'
+
+# /k chat
+cmdChatNoChannel: '&cThe chat channel &4{0} &cdoes not exist!'
+cmdChatEmptyMessage: '&cYou can''t send an empty message!'
+
+# /k info
+cmdInfoTotalMembers: '&7Total members: &6{0}'
+cmdInfoTotalMembersLimited: '&7Total members: &6{0} &f/ &6{1}'
+cmdInfoInviteOnly: '&7Invite only: &6{0}'
+cmdInfoDefaultRank: '&7Default rank: &6{0}'
+cmdInfoSpawn: '&7Spawn: &6{0}'
+cmdInfoCreatedAt: '&7Created at: &6{0}'
+cmdInfoLevel: '&7Level: &6{0}'
+cmdInfoLastSeen: '&7Last seen: &6{0}'
+cmdInfoLastSeenNow: 'Now online'
+cmdInfoFirstSeen: '&7First seen: &6{0}'
+cmdInfoRank: '&7Rank: &6{0}'
+cmdInfoEnemies: '&cEnemies'
+cmdInfoAllies: '&bAllies'
+cmdInfoTruce: '&aTruce'
+cmdInfoDateFormat: 'dd MMM yyyy'

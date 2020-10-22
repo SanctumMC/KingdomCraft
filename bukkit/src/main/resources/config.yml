@@ -1,0 +1,55 @@
+######################################################################
+#                                                                    #
+#                            KINGDOMCRAFT                            #
+#                Created by Joris Guffens, Copyrighted               #
+#                        --------------------                        #
+#                             version 6.0                            #
+#                                                                    #
+#                       https://kingdomcraft.nl                      #
+######################################################################
+
+settings:
+
+    nokingdom:
+        prefix: '&7[&eHobo&7]'
+        suffix: ''
+
+    # a list of worlds this plugin is enabled in, remove to allow all worlds
+    worlds:
+    - world
+    - world_nether
+    - world_the_end
+
+    # include these relationships in the friendly fire check
+    friendly-fire-relationships:
+    - ally
+    - truce
+
+    # Respawn at the kingdom spawn when you die
+    respawn_at_kingdom: true
+
+    # commands to be executed when an event happens
+    # prefix with CONSOLE to execute this in the console
+    # e.g. CONSOLE money give {player} 1000
+    events:
+        kingdom_join:
+        - k spawn
+        - CONSOLE clearinv {player}
+
+        kingdom_leave:
+        - spawn
+        - CONSOLE clearinv {player}
+
+    messages:
+        join: '&e{kingdom_prefix}{rank_prefix}{player} &ejoined the server.'
+        leave: '&e{kingdom_prefix}{rank_prefix}{player} &equit the server.'
+        death: '&e{kingdom_prefix}{rank_prefix}{player} &edied.'
+        kill: '&e{kingdom_prefix}{rank_prefix}{player} &ewas killed by
+            {killer_kingdom_prefix}{killer_rank_prefix}{killer_player} &ewith weapon {killer_weapon}&e.'
+
+# DO NOT CHANGE THIS SECTION IF YOU DO NOT KNOW WHAT YOU ARE DOING!
+database:
+    driver: 'org.h2.Driver'
+    url: 'jdbc:h2:file:./plugins/KingdomCraft/database.h2'
+    username: 'kingdomcraft'
+    password: ''
